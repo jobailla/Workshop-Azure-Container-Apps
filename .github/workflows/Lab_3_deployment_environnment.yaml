@@ -4,17 +4,17 @@ on:
   workflow_dispatch:
 
 env:
-  RESOURCE_GROUP: "RG-Lab3"
-  LOCATION: "eastus2"
-  CONTAINERAPPS_ENVIRONMENT: "environment-lab-3"
-  LOG_ANALYTICS_NAME: "pierrc-workspace-lab-3"
-  ACR_NAME: "acrlab3xxx"
+  RESOURCE_GROUP: "jbaillais"
+  LOCATION: "eastus"
+  CONTAINERAPPS_ENVIRONMENT: "jbaillais-env"
+  LOG_ANALYTICS_NAME: "workspaceressourcegrpayz8236"
+  ACR_NAME: "jbaillaisacr"
   ##################################################################################################################################################################################
   # Nous sommes dans un Workshop !                                                                                                                                                 #
   # Dans les bonnes pratiques, toutes la informations liées à la base de données sont à mettre dans un service pour stocker les secrets (ex: service secrets GitHub, KeyVault, ...)#
-  DB_HOST_NAME: "DB-lab-3-xxx"                                                                                                                                                     #
+  DB_HOST_NAME: "DB-lab-3-jbaillais"                                                                                                                                                     #
   DB_NAME: "rugby_api" # ne pas modifier                                                                                                                                           #
-  DB_ADMIN: "pierrc"                                                                                                                                                               #
+  DB_ADMIN: "jbaillais"                                                                                                                                                               #
   DB_ADMIN_PASSWORD: Password123$                                                                                                                                                  #
   ##################################################################################################################################################################################
 
